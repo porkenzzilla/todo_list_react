@@ -1,0 +1,58 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #222222;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  background: none;
+  color: white;
+  padding: 0px 10px;
+}
+
+.enter {
+  height: 30px;
+  width: 100px;
+  font-size: 12px;
+  background: none;
+  border: 1px solid rgb(236, 236, 236);
+  color: rgb(236, 236, 236);
+  margin-left: 5px;
+}
+
+.enter:hover {
+  background-color: rgb(236, 236, 236);
+  color: #222222;
+  cursor: pointer;
+}
+
+.todo__item {
+  position: absolute;
+  cursor: move;
+  min-width: 215px;
+  color: black;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.delete {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: none;
+  border: none;
+}
+
+.delete:hover {
+color: red;
+cursor: pointer;
+}
+
+
